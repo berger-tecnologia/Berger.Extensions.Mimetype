@@ -97,6 +97,7 @@
             {"nc", "application/x-netcdf"},
             {"oda", "application/oda"},
             {"ogg", "application/ogg"},
+            {"ogg", "audio/ogg"},
             {"pbm", "image/x-portable-bitmap"},
             {"pct", "image/pict"},
             {"pdb", "chemical/x-pdb"},
@@ -192,7 +193,7 @@
             {"xwd", "image/x-xwindowdump"},
             {"xyz", "chemical/x-xyz"},
             {"zip", "application/zip"}
-        };
+        }
         public static string GetMimeType(string filename)
         {
             string extension = Path.GetExtension(filename).ToLowerInvariant();
