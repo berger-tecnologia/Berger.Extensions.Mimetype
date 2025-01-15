@@ -193,7 +193,7 @@
             {"xwd", "image/x-xwindowdump"},
             {"xyz", "chemical/x-xyz"},
             {"zip", "application/zip"}
-        }
+        };
         public static string GetMimeType(string filename)
         {
             string extension = Path.GetExtension(filename).ToLowerInvariant();
